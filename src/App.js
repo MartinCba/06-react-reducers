@@ -1,7 +1,11 @@
+import Contador from "./components/Contador";
+
 function App() {
   return (
     <div>
-      <h1>UseReducers</h1>
+      <h1>UseReducer</h1>
+      <hr />
+      <Contador />
     </div>
   );
 }
